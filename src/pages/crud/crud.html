@@ -1,0 +1,50 @@
+<!--
+  
+/**
+ * Nome: Claudemir Cardoso RA:816155452
+ */
+
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title align="center">Cadastrar Filmes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label stacked>Título</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Gênero</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Popularidade</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Data de Lançamento</ion-label>
+      <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="myDate"></ion-datetime>
+    </ion-item>
+
+  </ion-list>
+
+  <div align="center">
+    <button ion-button small (click)="goToTabsFilme()">Inserir</button>
+    <button ion-button small>Cancelar</button>
+    <!--<button ion-button small (click)="goToTabsPage()">Selecionar</button>
+    <button ion-button small (click)="goToTabsPage()">Atualizar</button>
+    <button ion-button small (click)="goToTabsPage()">Excluir</button>-->
+  </div>
+
+</ion-content>

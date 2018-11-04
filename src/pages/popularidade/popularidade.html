@@ -1,0 +1,35 @@
+<!--
+  
+/**
+ * Nome: Claudemir Cardoso RA:816155452
+ */
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title align="center">Popularidade</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-card *ngFor="let popularidade of popularidades">
+
+    <ion-item>
+      <h2 class="filme_title">{{popularidade.title}}</h2>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <button ion-button color="primary" clear small icon-start>
+          <ion-icon name='thumbs-up'></ion-icon>
+          {{popularidade.popularity | number: '3.2-2'}} Popularidade
+        </button>
+      </ion-col>
+
+    </ion-row>
+  </ion-card>
+
+</ion-content>

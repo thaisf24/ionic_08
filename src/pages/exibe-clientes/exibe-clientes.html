@@ -1,0 +1,33 @@
+<!--
+  
+/**
+ * Nome: Claudemir Cardoso RA:816155452
+ */.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>exibe-clientes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let cliente of clientes">
+      <div id="container">
+        <div style="float: left">
+          <p>{{cliente.nome}}</p>
+          <p>{{cliente.fone}}</p>
+          <p>{{cliente.email}}</p>
+        </div>
+        <div style="float: right">
+          <ion-icon name="trash" (click)="apagaCliente(cliente)"></ion-icon>
+          <ion-icon name="paper" (click)="atualizaCliente(cliente)"></ion-icon>
+        </div>
+      </div>
+    </ion-item>
+  </ion-list>
+  <p>testee</p>
+</ion-content>

@@ -1,0 +1,39 @@
+<!--
+  
+/**
+ * Nome: Claudemir Cardoso RA:816155452
+ */
+-->
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Cadastrar Filme</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <form (ngSubmit)="cadastraFilme()" #formulario="ngForm">
+      <ion-item>
+        <ion-label stacked>Nome:</ion-label>
+        <ion-input [(ngModel)]= "filme.nome" name="nome"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Lançamento:</ion-label>
+        <ion-input [(ngModel)]= "filme.lancamento" name="lancamento"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Popularidade:</ion-label>
+        <ion-input [(ngModel)]= "filme.popularidade" name="popularidade"></ion-input>
+      </ion-item>
+    </form>
+  
+    <ion-fab top right edge>
+      <button mini ion-fab (click)="formulario.ngSubmit.emit()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-fab>
+
+</ion-content>
