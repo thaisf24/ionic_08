@@ -4,11 +4,6 @@ import { Cliente } from '../../modelo/cliente';
 import { ClienteProvider } from '../../providers/cliente/cliente';
 import { AtualizaClientePage } from '../atualiza-cliente/atualiza-cliente';
 
-/**
- * 
- * Nome: Claudemir Cardoso RA:816155452
- *
- */
 
 @IonicPage()
 @Component({
