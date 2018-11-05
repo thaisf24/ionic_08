@@ -5,10 +5,7 @@ import { FilmeProvider } from '../../providers/filme/filme';
 import { AtualizaFilmePage } from '../atualiza-filme/atualiza-filme';
 
 
-/**
- *
- * Nome: Claudemir Cardoso RA:816155452
- */
+
 
 @IonicPage()
 @Component({
