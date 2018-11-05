@@ -4,12 +4,6 @@ import { Genero } from '../../model/model_filme';
 import { Destino1Page } from '../destino1/destino1';
 import { MovieProvider } from '../../providers/movie/movie';
 
-/**
- *
- * Nome: Claudemir Cardoso RA:816155452
- *
- */
-
 @IonicPage()
 @Component({
   selector: 'page-genero',
