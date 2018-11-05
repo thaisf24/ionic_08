@@ -13,6 +13,3 @@ export class AboutPage {
 
 }
 
-/**
- * Nome: Claudemir Cardoso RA:816155452
- */
