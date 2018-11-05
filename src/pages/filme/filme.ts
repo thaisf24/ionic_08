@@ -2,10 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { MovieProvider } from '../../providers/movie/movie';
 
-/**
- * Nome: Claudemir Cardoso RA:816155452
- *
- */
+
 
 @Component({
   selector: 'page-filme',
