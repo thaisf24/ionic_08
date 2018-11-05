@@ -3,11 +3,6 @@ import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angu
 import { ClienteProvider } from '../../providers/cliente/cliente';
 import { Cliente } from '../../modelo/cliente';
 
-/**
- * Nome: Claudemir Cardoso RA:816155452
- *
- */
-
 @IonicPage()
 @Component({
   selector: 'page-atualiza-cliente',
