@@ -4,10 +4,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ContactPage } from '../contact/contact';
 import { FilmePage } from '../filme/filme';
 
-/**
- *
- * Nome: Claudemir Cardoso RA:816155452
- */
 
 @IonicPage()
 @Component({
